@@ -14,6 +14,7 @@ function App() {
             <Route exact path='/profile/:id' element={<Profile/>}/>           
             <Route exact path='/login' element={<Login/>}/>
             <Route exact path='/' element={<Login/>}/> 
+            
           </Routes>                
        </BrowserRouter> 
        <Toaster/>              
